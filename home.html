@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        main, .home_banner {
+            background-color: #f1f1f2;
+        }
+        footer {
+            background-color: #335154;;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav class="nav-config navbar navbar-expand-sm navbar-light bg-light py-3">
+                  <div class="container">
+                    <a class="navbar-brand mx-5" href="#"><img src="./imgs/logo.png" alt=""></a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mx-5" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active fs-5" href="home.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="page.html">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="cart.html">Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="signIn.html">Log In</a>
+                            </li>
+                        </ul>
+                    </div>
+              </div>
+            </nav>
+            <div class="home_banner row pt-5">
+                <div class="col-md-6">
+                    <img src="imgs/banner.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="fw-bold fs-1">Mach City 7 Bicycle</h2>
+                    <div class="d-flex gap-5 mt-3">
+                        <div>
+                            <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> 17t, 21 frame height</p>
+                            <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> 26t wheel size</p>
+                            <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> 7 speed transmission</p>
+                        </div>
+                        <div>
+                            <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> Paved road</p>
+                            <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> Light weight steel frame</p>
+                            <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> Steel rigid fork</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-5 mt-5 align-items-center">
+                        <h2 class="fs-1 fw-bold text-danger">$ 1.500</h2>
+                        <div>
+                            <a class="btn btn-danger px-5 py-3 fw-bold">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-3 border-end">
+                <div class="d-flex flex-column gap-3 px-5 py-5 text-center">
+                    <div>
+                        <img src="imgs/contact1.png" class="img-fluid" alt="">
+                    </div>
+                    <h3 class="fs-2 fw-bold mw-25">Saddle Personal Fitting</h3>
+                    <p>Individual saddle fitting according to your height and weight.</p>
+                </div>
+            </div>
+            <div class="col-3 border-end">
+                <div class="d-flex flex-column gap-3 px-5 py-5 text-center">
+                    <div>
+                        <img class="img-fluid" src="imgs/contact2.png" alt="">
+                    </div>
+                    <h3 class="fs-2 fw-bold mw-25">Spare Parts Exchange</h3>
+                    <p>Have spare parts and want to sell or exchange them? Come and see!</p>
+                </div>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center align-items-center p-5">
+                <h2 class="fs-2 fw-bold w-75 lh-sm mb-5">Subscribe to our newsletter about new products</h2>
+                <form class="d-flex gap-2" action="">
+                    <input type="text" class="form-control" placeholder="Your email address...">
+                    <div>
+                        <button class="btn btn-secondary">Subcribe now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <main class="py-3 px-4">
+            <h2 class="text-center fs-1 fw-bold my-5">Our Products</h2>
+            <div class="row">
+                <div class="col-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/bestseller1.png" alt="Title">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ROAD BICYCLES</h4>
+                            <p class="card-text text-danger">$ 500</p>
+                            <a href="detail.html"><button class="btn btn-danger px-3 py-1">Buy</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/bestseller2.png" alt="Title">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ROAD BICYCLES</h4>
+                            <p class="card-text text-danger">$ 500</p>
+                            <button class="btn btn-danger px-3 py-1">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/bestseller3.png" alt="Title">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ROAD BICYCLES</h4>
+                            <p class="card-text text-danger">$ 500</p>
+                            <button class="btn btn-danger px-3 py-1">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/bestseller4.png" alt="Title">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ROAD BICYCLES</h4>
+                            <p class="card-text text-danger">$ 500</p>
+                            <button class="btn btn-danger px-3 py-1">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/bestseller5.png" alt="Title">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ROAD BICYCLES</h4>
+                            <p class="card-text text-danger">$ 500</p>
+                            <button class="btn btn-danger px-3 py-1">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/bestseller6.png" alt="Title">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ROAD BICYCLES</h4>
+                            <p class="card-text text-danger">$ 500</p>
+                            <button class="btn btn-danger px-3 py-1">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/bestseller7.png" alt="Title">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ROAD BICYCLES</h4>
+                            <p class="card-text text-danger">$ 500</p>
+                            <button class="btn btn-danger px-3 py-1">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/bestseller8.png" alt="Title">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ROAD BICYCLES</h4>
+                            <p class="card-text text-danger">$ 500</p>
+                            <button class="btn btn-danger px-3 py-1">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="row py-4 px-5">
+            <div class="col-3 my-4">
+                <a href="">
+                    <img src="imgs/logo.png" alt="">
+                </a>
+                <div class="d-flex gap-4 m-3 mb-0">
+                    <i class="text-danger fa-brands fa-facebook"></i>
+                    <i class="text-danger fa-brands fa-twitter"></i>
+                    <i class="text-danger fa-brands fa-square-instagram"></i>
+                </div>
+            </div>
+            <div class="col-3 my-4">
+                <h3 class="text-light fs-5 fw-bold">Want To Call With Us?</h3>
+                <div class="d-flex align-items-center gap-3">
+                    <i class="text-danger fa-solid fa-phone"></i>
+                    <p class="text-light m-0">(+84) 344-750-590</p>
+                </div>
+            </div>
+            <div class="col-3 my-4">
+                <h3 class="text-light fs-5 fw-bold">Want To Email With Us?</h3>
+                <div class="d-flex gap-3 align-items-center">
+                    <i class="text-danger fa-solid fa-envelope"></i>
+                    <p class="text-light m-0">thangnqph28950@fpt.edu.vn</p>
+                </div>
+            </div>
+            <div class="col-3 my-4">
+                <h3 class="text-light fs-5 fw-bold">Want To Visit Us?</h3>
+                <div class="d-flex gap-3 align-items-center">
+                    <i class="text-danger fa-sharp fa-solid fa-location-dot"></i>
+                    <p class="text-light m-0">Trịnh Văn Bô - Hà Nội.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        footer, .header__contact {
+            background-color: #335154;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="mb-5">
+            <nav class="nav-config navbar navbar-expand-sm navbar-light bg-light py-3">
+                <div class="container">
+                  <a class="navbar-brand mx-5" href="#"><img src="./imgs/logo.png" alt=""></a>
+                  <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                      aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse mx-5" id="collapsibleNavId">
+                      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link fs-5" href="home.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link fs-5 " href="page.html">Pages</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link fs-5 " href="blog.html">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link fs-5 active" href="contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link fs-5" href="cart.html">Cart</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link fs-5" href="signIn.html">Log In</a>
+                          </li>
+                      </ul>
+                  </div>
+            </div>
+            </nav>
+            <section class="header__contact py-5 text-center">
+                <h2 class="fs-1 text-danger fw-bold">Contact us</h2>
+                <p class="text-secondary">Home <span class="text-white">/ Contact</span></p>
+            </section>
+        </header>
+        <main class="my-5">
+            <div class="row px-3">
+                <div class="col-6 px-5 my-4">
+                    <h2 class="fs-1 fw-bold text-secondary my-4">Get Info</h2>
+                    <div class="row">
+                        <div class="col-6 mb-5">
+                            <div class="row">
+                                <div class="col-3 border border-danger d-flex justify-content-center align-items-center py-3">
+                                    <i class="text-black fa-sharp fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-9 d-flex flex-column justify-content-center">
+                                    <h4 class="fs-5 fw-semibold m-0">LOCATION</h4>
+                                    <p class="fs-6 opacity-75 text-secondary m-0">Trịnh Văn Bô - Hà Nội</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-5">
+                            <div class="row">
+                                <div class="col-3 border border-danger d-flex justify-content-center align-items-center py-3">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-9 d-flex flex-column justify-content-center">
+                                    <h4 class="fs-5 fw-semibold m-0">PHONE</h4>
+                                    <p class="fs-6 opacity-75 text-secondary m-0">(+84)344750590</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-5">
+                            <div class="row">
+                                <div class="col-3 border border-danger d-flex justify-content-center align-items-center py-3">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="col-9 d-flex flex-column justify-content-center">
+                                    <h4 class="fs-5 fw-semibold m-0">EMAIL</h4>
+                                    <p class="fs-6 opacity-75 text-secondary m-0">thangnqph28950@fpt.edu.vn</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-5">
+                            <div class="row">
+                                <div class="col-3 border border-danger d-flex justify-content-center align-items-center py-3">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <div class="col-9 d-flex flex-column justify-content-center">
+                                    <h4 class="fs-5 fw-semibold m-0">OPENING HOURS</h4>
+                                    <p class="fs-6 opacity-75 text-secondary m-0">Mon-Sat 09:00 - 18:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 px-5 my-4">
+                    <div class="d-flex flex-column my-4 gap-4">
+                        <input type="email" class="form-control py-2" placeholder="Your email">
+                        <div class="input-group d-flex gap-3">
+                            <input type="text" class="form-control py-2" placeholder="Your name">
+                            <input type="text" class="form-control py-2" placeholder="Your phone">
+                        </div>
+                        <input type="text" class="form-control py-2" placeholder="Your address">
+                        <button class="btn btn-danger py-2">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="row py-4 px-5">
+            <div class="col-3 my-4">
+                <a href="">
+                    <img src="imgs/logo.png" alt="">
+                </a>
+                <div class="d-flex gap-4 m-3 mb-0">
+                    <i class="text-danger fa-brands fa-facebook"></i>
+                    <i class="text-danger fa-brands fa-twitter"></i>
+                    <i class="text-danger fa-brands fa-square-instagram"></i>
+                </div>
+            </div>
+            <div class="col-3 my-4">
+                <h3 class="text-light fs-5 fw-bold">Want To Call With Us?</h3>
+                <div class="d-flex align-items-center gap-3">
+                    <i class="text-danger fa-solid fa-phone"></i>
+                    <p class="text-light m-0">(+84) 344-750-590</p>
+                </div>
+            </div>
+            <div class="col-3 my-4">
+                <h3 class="text-light fs-5 fw-bold">Want To Email With Us?</h3>
+                <div class="d-flex gap-3 align-items-center">
+                    <i class="text-danger fa-solid fa-envelope"></i>
+                    <p class="text-light m-0">thangnqph28950@fpt.edu.vn</p>
+                </div>
+            </div>
+            <div class="col-3 my-4">
+                <h3 class="text-light fs-5 fw-bold">Want To Visit Us?</h3>
+                <div class="d-flex gap-3 align-items-center">
+                    <i class="text-danger fa-sharp fa-solid fa-location-dot"></i>
+                    <p class="text-light m-0">Trịnh Văn Bô - Hà Nội.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="bundle.min.js"></script>
+</body>
+</html>
