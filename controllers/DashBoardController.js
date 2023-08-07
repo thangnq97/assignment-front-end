@@ -1,0 +1,3 @@
+window.DashBoardController = function($scope) {
+    
+}

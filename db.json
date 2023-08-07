@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "name": "ROAD BICYCLES",
+      "desc": "Với chất lượng tuyệt vời. Sử dụng khung hợp kim nhôm nhẹ giúp xe đạp siêu nhẹ, siêu bền. Bộ chuyển động Shimano- 21 tốc độ ( Nhật Bản ). Thiết kế thời trang, nhẹ nhàng, thanh thoát, nước sơn 3 lớp cao cấp chống bong tróc, chịu mọi thời tiết…",
+      "price": 12000,
+      "img": "./imgs/bestseller1.png",
+      "color": "#000000",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "img": "./imgs/bestseller2.png",
+      "name": "Woman's BICYCLES",
+      "desc": "Với chất lượng tuyệt vời. Sử dụng khung hợp kim nhôm nhẹ giúp xe đạp siêu nhẹ, siêu bền. Bộ chuyển động Shimano- 21 tốc độ ( Nhật Bản ). Thiết kế thời trang, nhẹ nhàng, thanh thoát, nước sơn 3 lớp cao cấp chống bong tróc, chịu mọi thời tiết…",
+      "price": 1500,
+      "color": "#3bb2cb"
+    },
+    {
+      "id": 3,
+      "img": "./imgs/bestseller3.png",
+      "name": "ROAD's BICYCLES",
+      "desc": "Với chất lượng tuyệt vời. Sử dụng khung hợp kim nhôm nhẹ giúp xe đạp siêu nhẹ, siêu bền. Bộ chuyển động Shimano- 21 tốc độ ( Nhật Bản ). Thiết kế thời trang, nhẹ nhàng, thanh thoát, nước sơn 3 lớp cao cấp chống bong tróc, chịu mọi thời tiết…",
+      "price": 2000,
+      "color": "#3bb2cb"
+    },
+    {
+      "id": 4,
+      "img": "./imgs/bestseller4.png",
+      "name": "Woman's BICYCLES",
+      "desc": "Với chất lượng tuyệt vời. Sử dụng khung hợp kim nhôm nhẹ giúp xe đạp siêu nhẹ, siêu bền. Bộ chuyển động Shimano- 21 tốc độ ( Nhật Bản ). Thiết kế thời trang, nhẹ nhàng, thanh thoát, nước sơn 3 lớp cao cấp chống bong tróc, chịu mọi thời tiết…",
+      "price": 3000,
+      "color": "#000000"
+    },
+    {
+      "id": 5,
+      "img": "./imgs/bestseller5.png",
+      "name": "Woman's BICYCLES",
+      "desc": "Với chất lượng tuyệt vời. Sử dụng khung hợp kim nhôm nhẹ giúp xe đạp siêu nhẹ, siêu bền. Bộ chuyển động Shimano- 21 tốc độ ( Nhật Bản ). Thiết kế thời trang, nhẹ nhàng, thanh thoát, nước sơn 3 lớp cao cấp chống bong tróc, chịu mọi thời tiết…",
+      "price": 1000,
+      "color": "#000000"
+    },
+    {
+      "id": 6,
+      "img": "./imgs/bestseller6.png",
+      "name": "ROAD's BICYCLES",
+      "desc": "Với chất lượng tuyệt vời. Sử dụng khung hợp kim nhôm nhẹ giúp xe đạp siêu nhẹ, siêu bền. Bộ chuyển động Shimano- 21 tốc độ ( Nhật Bản ). Thiết kế thời trang, nhẹ nhàng, thanh thoát, nước sơn 3 lớp cao cấp chống bong tróc, chịu mọi thời tiết…",
+      "price": 3500,
+      "color": "#3bb2cb"
+    },
+    {
+      "id": 7,
+      "img": "./imgs/bestseller7.png",
+      "name": "ROAD's BICYCLES",
+      "desc": "Với chất lượng tuyệt vời. Sử dụng khung hợp kim nhôm nhẹ giúp xe đạp siêu nhẹ, siêu bền. Bộ chuyển động Shimano- 21 tốc độ ( Nhật Bản ). Thiết kế thời trang, nhẹ nhàng, thanh thoát, nước sơn 3 lớp cao cấp chống bong tróc, chịu mọi thời tiết…",
+      "price": 3500,
+      "color": "#000000"
+    },
+    {
+      "id": 8,
+      "img": "./imgs/bestseller8.png",
+      "name": "ROAD's BICYCLES",
+      "desc": "Với chất lượng tuyệt vời. Sử dụng khung hợp kim nhôm nhẹ giúp xe đạp siêu nhẹ, siêu bền. Bộ chuyển động Shimano- 21 tốc độ ( Nhật Bản ). Thiết kế thời trang, nhẹ nhàng, thanh thoát, nước sơn 3 lớp cao cấp chống bong tróc, chịu mọi thời tiết…",
+      "price": 2500,
+      "color": "#3bb2cb"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234",
+      "role": "admin",
+      "email": "thang@gmail.com",
+      "phone": "01234567"
+    },
+    {
+      "username": "thangnq",
+      "phone": "123",
+      "email": "123@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "demo",
+      "phone": "12345",
+      "email": "thang@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "username": "demo",
+      "phone": "1234",
+      "email": "thang@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "id": 7
+    }
+  ]
+}

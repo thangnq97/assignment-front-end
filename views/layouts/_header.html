@@ -1,0 +1,37 @@
+<nav class="nav-config navbar navbar-expand-sm navbar-light bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand mx-5" href="#"><img src="./imgs/logo.png" alt=""></a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mx-5" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link fs-5" href="#!/" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link fs-5" href="#!/page">Pages</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link fs-5" href="#!/blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link fs-5" href="#!/contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link fs-5" href="#!/cart">Cart</a>
+              </li>
+              <li ng-hide="userLog" class="nav-item">
+                  <a class="nav-link fs-5" href="#!/sign-in">Log In</a>
+              </li>
+              <li ng-show="userLog" class="nav-item">
+                  <a class="nav-link fs-5" href="" ng-click="logOut()">Log Out</a>
+              </li>
+              <li ng-show="admin" class="nav-item">
+                <a class="nav-link fs-5" href="#!/admin">Admin</a>
+            </li>
+          </ul>
+      </div>
+</div>
+</nav>

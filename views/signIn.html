@@ -1,0 +1,30 @@
+<main class="mt-5">
+    <div class="row">
+        <!-- <div class="col-6 p-4">
+            <img src="imgs/blog-01.jpg" class="img-fluid" alt="">
+        </div> -->
+        <div class="col-12 p-4">
+            <div class="container d-flex justify-content-center align-items-center mb-5">
+                <div class="card-config">
+                    <div class="text-center">
+                        <h1 class="text-light">Login</h1>
+                        <h6 class="text-light">Please enter email & password</h6>
+                    </div>
+                    <form >
+                        <div class="my-3">
+                            <label class="form-label text-light">Username</label>
+                            <input type="text" class="form-control" placeholder="Your username" ng-model="user.username">
+                        </div>
+                        <div class="my-3">
+                            <label class="form-label text-light">Password</label>
+                            <input type="password" class="form-control" placeholder="Password" ng-model="user.password">
+                            <small ng-if="message" class="text-danger">{{ message }}</small>
+                        </div>
+                        <button ng-click="signIn()" type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                    <a class="text-light mt-3" href="#!/sign-up" >New user? Click to signup</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

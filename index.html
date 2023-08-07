@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="angular.js"></script>
+    <script src="angular-route.js"></script>
+    <script src="controllers/BlogController.js"></script>
+    <script src="controllers/CartController.js"></script>
+    <script src="controllers/ContactController.js"></script>
+    <script src="controllers/DashBoardController.js"></script>
+    <script src="controllers/DetailController.js"></script>
+    <script src="controllers/HomeController.js"></script>
+    <script src="controllers/PageController.js"></script>
+    <script src="controllers/SignInController.js"></script>
+    <script src="controllers/SignUpController.js"></script>
+    <script src="controllers/AdminController.js"></script>
+    <style>
+        .card-config {
+            margin-top: 10px;
+            border: none;
+            width: 500px;
+            padding: 40px;
+            background: hsla(205, 46%, 30%, 1);
+            background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+        }
+    </style>
+</head>
+<body ng-app="myApp">
+    <div class="container-fluid" ng-controller="myController">
+            <div ng-include="'views/layouts/_header.html'">
+
+            </div>
+            <div ng-view>
+
+            </div>
+            <div ng-include="'views/layouts/_footer.html'">
+
+            </div>
+    </div>
+    
+    <script src="bundle.min.js"></script>
+    <script src="route.js"></script>
+</body>
+</html>

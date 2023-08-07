@@ -1,0 +1,3 @@
+window.CartController = function($scope) {
+    
+}

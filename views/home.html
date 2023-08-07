@@ -1,0 +1,71 @@
+<div class="home_banner row pt-5" style="background-color: #f1f1f2;">
+    <div class="col-md-6">
+        <img src="imgs/banner.png" class="img-fluid" alt="">
+    </div>
+    <div class="col-md-6">
+        <h2 class="fw-bold fs-1">Mach City 7 Bicycle</h2>
+        <div class="d-flex gap-5 mt-3">
+            <div>
+                <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> 17t, 21 frame height</p>
+                <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> 26t wheel size</p>
+                <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> 7 speed transmission</p>
+            </div>
+            <div>
+                <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> Paved road</p>
+                <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> Light weight steel frame</p>
+                <p class="fs-5"> <span><i class="text-danger fa-solid fa-check"></i></span> Steel rigid fork</p>
+            </div>
+        </div>
+        <div class="d-flex gap-5 mt-5 align-items-center">
+            <h2 class="fs-1 fw-bold text-danger">$ 1.500</h2>
+            <div>
+                <a class="btn btn-danger px-5 py-3 fw-bold">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+</header>
+<div class="row">
+<div class="col-3 border-end">
+    <div class="d-flex flex-column gap-3 px-5 py-5 text-center">
+        <div>
+            <img src="imgs/contact1.png" class="img-fluid" alt="">
+        </div>
+        <h3 class="fs-2 fw-bold mw-25">Saddle Personal Fitting</h3>
+        <p>Individual saddle fitting according to your height and weight.</p>
+    </div>
+</div>
+<div class="col-3 border-end">
+    <div class="d-flex flex-column gap-3 px-5 py-5 text-center">
+        <div>
+            <img class="img-fluid" src="imgs/contact2.png" alt="">
+        </div>
+        <h3 class="fs-2 fw-bold mw-25">Spare Parts Exchange</h3>
+        <p>Have spare parts and want to sell or exchange them? Come and see!</p>
+    </div>
+</div>
+<div class="col-6 d-flex flex-column justify-content-center align-items-center p-5">
+    <h2 class="fs-2 fw-bold w-75 lh-sm mb-5">Subscribe to our newsletter about new products</h2>
+    <form class="d-flex gap-2" action="">
+        <input type="text" class="form-control" placeholder="Your email address...">
+        <div>
+            <button class="btn btn-secondary">Subcribe now</button>
+        </div>
+    </form>
+</div>
+</div>
+<main class="py-3 px-4" style="background-color: #f1f1f2;">
+<h2 class="text-center fs-1 fw-bold my-5">Our Products</h2>
+<div class="row">
+    <div class="col-3 mb-4" ng-repeat="value in data">
+        <div class="card">
+            <a href="#!/detail/{{ value.id }}"><img class="card-img-top" src="{{ value.img }}" alt="Title"></a>
+            <div class="card-body text-center">
+                <a href="#!/detail/{{ value.id }}" class="text-dark underline" style="text-decoration: none;"><h4 class="card-title">{{ value.name }}</h4></a>
+                <p class="card-text text-danger">$ {{ value.price }}</p>
+                <a href="#!/detail/{{ value.id }}"><button class="btn btn-danger px-3 py-1">Buy</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
